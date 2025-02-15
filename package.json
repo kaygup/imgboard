@@ -1,0 +1,19 @@
+{
+  "name": "image-board",
+  "description": "A simple image board",
+  "scripts": {
+    "start": "firebase serve",
+    "deploy": "firebase deploy"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase-functions": "^3.14.1",
+    "firebase-admin": "^9.8.0",
+    "mongoose": "^5.10.9",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": "14"
+  },
+  "private": true
+}
