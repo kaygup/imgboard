@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Image Board</h1>
+
+    <!-- Form to create new post -->
+    <form id="postForm">
+        <label for="title">Title:</label>
+        <input type="text" id="title" required><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" required></textarea><br>
+
+        <label for="image">Upload Image:</label>
+        <input type="file" id="image" accept="image/*"><br>
+
+        <button type="submit">Submit Post</button>
+    </form>
+
+    <h2>Posts:</h2>
+    <div id="posts"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

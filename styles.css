@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], textarea, input[type="file"] {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.post {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.post img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.comments {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+
+/* Style the images in the posts */
+/* Style the images in the posts */
+.post img {
+    max-width: 100%; /* Ensures the image fits within the post */
+    height: auto;    /* Maintains aspect ratio */
+    margin-top: 10px;
+    border-radius: 8px; /* Optional: Adds rounded corners to the image */
+}
+
+/* Optional: Make the text inside the post more readable */
+.post p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Style for comments and make text after ">" green */
+.comments span {
+    color: green; /* Make text inside comments after ">" green */
+}
+
